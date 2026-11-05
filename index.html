@@ -171,9 +171,9 @@
         </div>
         <form class="contact-form" id="contactForm" action="/api/messages" method="post" novalidate>
           <label for="name">Ім’я</label>
-          <input id="name" name="name" type="text" placeholder="Як до вас звертатися?" required minlength="2">
+          <input id="name" name="name" autocomplete="name" type="text" placeholder="Як до вас звертатися?" required minlength="2">
           <label for="email">Email</label>
-          <input id="email" name="email" type="email" placeholder="name@example.com" required>
+          <input id="email" name="email" autocomplete="email" type="email" placeholder="name@example.com" required>
           <label for="message">Повідомлення</label>
           <textarea id="message" name="message" rows="4" placeholder="Розкажіть трохи про вашу ідею..." required
             minlength="10"></textarea>
