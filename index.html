@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="uk">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description"
+    content="Портфоліо Frontend Developer — вебінтерфейси, адаптивна верстка та інтерактивні рішення.">
+  <title>Владислав Чернов — Frontend Developer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="На початок сторінки"><span
+          class="brand-mark">VC</span><span>vladyslav<span class="brand-dot">.</span>dev</span></a>
+      <nav class="main-nav" id="mainNav" aria-label="Головна навігація">
+        <a href="#about">Про мене</a>
+        <a href="#projects">Проєкти</a>
+        <a href="#skills">Навички</a>
+        <a href="#contact">Контакти</a>
+      </nav>
+      <div class="header-tools">
+        <button class="theme-toggle" id="themeToggle" type="button" aria-label="Увімкнути темну тему"
+          title="Змінити тему">
+          <span class="theme-icon" aria-hidden="true">☾</span>
+        </button>
+        <a class="header-cta" href="#contact">Зв’язатися <span aria-hidden="true">↗</span></a>
+        <button class="menu-toggle" id="menuToggle" type="button" aria-label="Відкрити меню" aria-expanded="false"
+          aria-controls="mainNav">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> ВІДКРИТИЙ ДО НОВИХ МОЖЛИВОСТЕЙ</p>
+        <h1 id="hero-title">Створюю цифровий досвід, <span>який має значення.</span></h1>
+        <p class="hero-lead">Привіт! Я Владислав — Frontend Developer. Перетворюю ідеї на зрозумілі, швидкі та приємні у
+          використанні вебінтерфейси.</p>
+        <div class="hero-actions">
+          <a class="button button-dark" href="#projects">Переглянути роботи <span aria-hidden="true">↗</span></a>
+          <a class="text-link" href="#about">Дізнатися більше <span aria-hidden="true">↓</span></a>
+        </div>
+        <div class="hero-meta">
+          <div><strong>2+</strong><span>роки навчання</span></div>
+          <div><strong>10+</strong><span>навчальних робіт</span></div>
+          <div><strong>100%</strong><span>уваги до деталей</span></div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="visual-orbit orbit-one"></div>
+        <div class="visual-orbit orbit-two"></div>
+        <div class="code-card">
+          <div class="code-top"><span></span><span></span><span></span><small>hello-world.html</small></div>
+          <div class="code-body">
+            <p><i>01</i> <b class="code-purple">&lt;section</b> class=<b class="code-green">"future"</b><b
+                class="code-purple">&gt;</b></p>
+            <p><i>02</i> &nbsp; <b class="code-purple">&lt;h1&gt;</b></p>
+            <p><i>03</i> &nbsp;&nbsp;Ideas into reality.</p>
+            <p><i>04</i> &nbsp; <b class="code-purple">&lt;/h1&gt;</b></p>
+            <p><i>05</i> &nbsp; <b class="code-purple">&lt;p&gt;</b>Build with care<b class="code-purple">&lt;/p&gt;</b>
+            </p>
+            <p><i>06</i> <b class="code-purple">&lt;/section&gt;</b></p>
+            <div class="code-cursor"></div>
+          </div>
+        </div>
+        <div class="floating-chip chip-html">HTML5</div>
+        <div class="floating-chip chip-css">CSS3</div>
+        <div class="floating-chip chip-js">JS</div>
+        <div class="visual-caption"><span class="caption-line"></span> КОДУЮ З ІДЕЄЮ</div>
+      </div>
+    </section>
+
+    <section class="about section-soft" id="about">
+      <div class="container about-grid">
+        <div class="section-heading">
+          <p class="eyebrow">01 / ПРО МЕНЕ</p>
+          <h2>Технології — це інструмент. <span>Люди — причина.</span></h2>
+        </div>
+        <div class="about-content">
+          <p class="large-copy">Мені подобається створювати речі, які не лише добре виглядають, а й вирішують реальні
+            завдання.</p>
+          <p>Працюю з HTML, CSS та JavaScript, вивчаю сучасні підходи до розробки інтерфейсів. У кожному проєкті прагну
+            поєднати чистий код, доступність і продуманий користувацький досвід.</p>
+          <div class="about-actions">
+            <button class="text-link underline-link detail-toggle" id="detailsToggle" type="button"
+              aria-expanded="false">Більше про мій підхід <span aria-hidden="true">＋</span></button>
+            <a class="text-link underline-link" href="https://github.com/Un1on" target="_blank" rel="noopener noreferrer">Мій
+              GitHub <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="extra-details" id="extraDetails" hidden>
+            <p>У роботі я починаю з розуміння потреб користувача, продумую структуру сторінки, а потім послідовно
+              реалізовую та перевіряю інтерфейс на різних екранах.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects container" id="projects">
+      <div class="section-top">
+        <div>
+          <p class="eyebrow">02 / ВИБРАНІ РОБОТИ</p>
+          <h2>Проєкти з <span>характером.</span></h2>
+        </div>
+        <a class="text-link" href="https://github.com/Un1on" target="_blank" rel="noopener noreferrer">Усі проєкти <span
+            aria-hidden="true">↗</span></a>
+      </div>
+      <div class="project-grid">
+        <article class="project-card project-wide">
+          <a class="project-image image-dashboard" href="https://github.com/Un1on" target="_blank" rel="noopener noreferrer"
+            aria-label="Переглянути приклад аналітичної панелі">
+            <img src="images/project-dashboard.svg"
+              alt="Ілюстрація аналітичної панелі з графіком і картками статистики">
+          </a>
+          <div class="project-info">
+            <div>
+              <h3>Insight Dashboard</h3>
+              <p>Аналітична панель із фокусом на даних та зручності.</p>
+            </div><span class="project-number">01</span>
+          </div>
+          <div class="tag-row"><span>HTML</span><span>CSS Grid</span><span>Responsive</span></div>
+        </article>
+        <article class="project-card">
+          <a class="project-image image-landing" href="https://github.com/Un1on" target="_blank" rel="noopener noreferrer"
+            aria-label="Переглянути приклад інтерфейсу менеджера завдань">
+            <img src="images/project-landing.svg"
+              alt="Ілюстрація інтерфейсу застосунку для планування завдань зі списком справ і календарем">
+          </a>
+          <div class="project-info">
+            <div>
+              <h3>TaskFlow</h3>
+              <p>Вебзастосунок для планування завдань і контролю особистої продуктивності.</p>
+            </div><span class="project-number">02</span>
+          </div>
+          <div class="tag-row"><span>JavaScript</span><span>CSS Grid</span><span>UI Design</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="toolbox section-soft" id="toolbox">
+      <div class="container toolbox-grid">
+        <div class="toolbox-intro">
+          <p class="eyebrow">03 / ІНТЕРАКТИВНИЙ СПИСОК</p>
+          <h2>Мій набір <span>інструментів.</span></h2>
+          <p>Список створюється за допомогою JavaScript. Додавайте власні технології або видаляйте ті, які більше не
+            потрібні.</p>
+          <form class="add-tool-form" id="addToolForm">
+            <label class="visually-hidden" for="toolInput">Назва технології</label>
+            <input id="toolInput" name="tool" type="text" placeholder="Наприклад, TypeScript" maxlength="30" required>
+            <button class="button button-dark" type="submit">Додати <span aria-hidden="true">＋</span></button>
+          </form>
+          <p class="list-feedback" id="listFeedback" role="status" aria-live="polite"></p>
+        </div>
+        <div class="dynamic-tools" id="dynamicTools" aria-label="Список технологій"></div>
+      </div>
+    </section>
+
+    <section class="contact container" id="contact">
+      <div class="contact-panel">
+        <div class="contact-copy">
+          <p class="eyebrow">04 / БУДЕМО НА ЗВ’ЯЗКУ</p>
+          <h2>Є ідея? <span>Обговорімо її.</span></h2>
+          <p>Напишіть кілька слів про свій проєкт — буду радий познайомитися.</p>
+          <a class="contact-email" href="mailto:vladd.chernov@gmail.com">vladd.chernov@gmail.com <span
+              aria-hidden="true">↗</span></a>
+        </div>
+        <form class="contact-form" id="contactForm" action="/api/messages" method="post" novalidate>
+          <label for="name">Ім’я</label>
+          <input id="name" name="name" type="text" placeholder="Як до вас звертатися?" required minlength="2">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="name@example.com" required>
+          <label for="message">Повідомлення</label>
+          <textarea id="message" name="message" rows="4" placeholder="Розкажіть трохи про вашу ідею..." required
+            minlength="10"></textarea>
+          <button class="button button-dark form-button" type="submit">Надіслати повідомлення <span
+              aria-hidden="true">↗</span></button>
+          <p class="form-note">Усі поля обов’язкові. Повідомлення перевіряється у браузері та не надсилається на сервер.
+          </p>
+          <p class="form-feedback" id="formFeedback" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner"><a class="brand" href="#top"><span
+          class="brand-mark">VC</span><span>vladyslav<span class="brand-dot">.</span>dev</span></a>
+      <p>© 2026 Владислав Чернов. Створено з увагою до деталей.</p>
+      <div class="footer-links"><a href="https://github.com/Un1on" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a
+          href="mailto:vladd.chernov@gmail.com">Email ↗</a></div>
+    </div>
+  </footer>
+  <script src="script.js" defer></script>
+</body>
+
+</html>
