@@ -1,0 +1,34 @@
+* { box-sizing: border-box; }
+:root { color-scheme: light; --ink: #20211f; --muted: #777a73; --line: #e8e9e3; --paper: #fbfbf8; --soft: #f3f4ef; --green: #62785a; }
+body { margin: 0; min-height: 100vh; padding: 45px 20px; background: var(--paper); color: var(--ink); font: 15px/1.6 Arial, sans-serif; }
+h1, h2 { font-family: Arial, sans-serif; letter-spacing: -.8px; }
+h1 { margin: 0 0 15px; font-size: clamp(30px, 5vw, 43px); }
+h2 { margin: 0; font-size: 19px; }
+a { color: var(--green); text-decoration: none; }
+a:hover { text-decoration: underline; }
+.eyebrow { margin: 0 0 12px; color: var(--green); font-size: 10px; font-weight: bold; letter-spacing: 1.7px; }
+.muted { color: var(--muted); font-size: 13px; }
+.login-card { width: min(100%, 430px); margin: 7vh auto; padding: 38px; border: 1px solid var(--line); border-radius: 15px; background: white; }
+form { display: grid; gap: 9px; margin: 24px 0; }
+label { margin-top: 7px; font-size: 12px; font-weight: bold; }
+input { width: 100%; padding: 13px; border: 1px solid var(--line); border-radius: 6px; background: var(--paper); font-size: 14px; }
+input:focus-visible { outline: 3px solid #a5b89b55; border-color: var(--green); }
+button { border: 0; border-radius: 6px; padding: 13px 17px; background: var(--ink); color: white; font-weight: bold; cursor: pointer; }
+button:hover { background: #3c4737; }
+button:disabled { opacity: .55; cursor: wait; }
+.login-card a { font-size: 12px; }
+.messages-page { width: min(100%, 900px); margin: 0 auto; }
+.admin-header { display: flex; justify-content: space-between; align-items: center; gap: 20px; }
+.admin-header form { margin: 0; }
+.button-secondary { padding: 10px 15px; background: white; color: var(--ink); border: 1px solid var(--line); }
+.status { margin: 25px 0 15px; color: var(--green); font-size: 13px; }
+.message-list { display: grid; gap: 13px; margin-bottom: 25px; }
+.message-card { padding: 22px; border: 1px solid var(--line); border-radius: 12px; background: white; }
+.message-top { display: flex; justify-content: space-between; align-items: start; gap: 20px; }
+.message-top time { color: var(--muted); font-size: 11px; }
+.message-card > a { display: inline-block; margin-top: 5px; font-size: 12px; }
+.message-body { white-space: pre-wrap; overflow-wrap: anywhere; color: #4e534a; font-size: 14px; }
+.delete-button { padding: 8px 12px; background: #f7ece9; color: #9b5146; font-size: 11px; }
+.delete-button:hover { background: #efd9d4; }
+.error { padding: 10px; border-radius: 5px; background: #f9e9e6; color: #9b5146; font-size: 12px; }
+@media (max-width: 560px) { body { padding: 25px 16px; } .login-card { padding: 25px 20px; } .admin-header { align-items: start; } .message-top { display: block; } .message-top time { display: block; margin-top: 4px; } }

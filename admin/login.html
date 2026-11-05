@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Вхід адміністратора — vladyslav.dev</title>
+  <link rel="stylesheet" href="/admin/admin.css">
+</head>
+<body>
+  <main class="login-card">
+    <p class="eyebrow">VLADYSLAV.DEV / ADMIN</p>
+    <h1>Вхід до панелі</h1>
+    <p class="muted">Перегляд і керування повідомленнями доступні лише адміністратору.</p>
+    <form method="post" action="/admin/login">
+      <label for="username">Логін</label>
+      <input id="username" name="username" required autocomplete="username" maxlength="80">
+      <label for="password">Пароль</label>
+      <input id="password" name="password" type="password" required autocomplete="current-password" maxlength="200">
+      <button type="submit">Увійти <span aria-hidden="true">↗</span></button>
+    </form>
+    <a href="/">← Повернутися на сайт</a>
+  </main>
+</body>
+</html>

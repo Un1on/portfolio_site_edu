@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Повідомлення — vladyslav.dev</title>
+  <link rel="stylesheet" href="/admin/admin.css">
+  <script src="/admin/messages.js" defer></script>
+</head>
+<body>
+  <main class="messages-page">
+    <header class="admin-header">
+      <div><p class="eyebrow">VLADYSLAV.DEV / ADMIN</p><h1>Отримані повідомлення</h1></div>
+      <form method="post" action="/admin/logout"><button class="button-secondary" type="submit">Вийти</button></form>
+    </header>
+    <p class="muted">Ця сторінка доступна лише після автентифікації адміністратора.</p>
+    <p id="status" class="status" role="status" aria-live="polite">Завантаження повідомлень…</p>
+    <section id="messageList" class="message-list" aria-label="Список повідомлень"></section>
+    <a href="/">← На головну</a>
+  </main>
+</body>
+</html>
